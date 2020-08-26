@@ -883,4 +883,15 @@ header .container ul li a:active{
         line-height: 50px;
         flex-direction: column;
     }
+    #footer .container ul li {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 60px;
+    }
+    #footer .container {
+        height: max-content;
+        line-height: 50px;
+        flex-direction: column;
+    }
 }
