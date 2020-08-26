@@ -872,4 +872,15 @@ header .container ul li a:active{
     #work .container > div:nth-child(2) {
         height: max-content;
     }
+    #footer .container ul li {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        line-height: 60px;
+    }
+    #footer .container {
+        height: max-content;
+        line-height: 50px;
+        flex-direction: column;
+    }
 }
